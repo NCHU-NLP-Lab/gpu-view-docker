@@ -22,7 +22,7 @@ $ docker exec -it gpu-view gpuview add --url <ip:port> --name <name>
 $ docker exec -it gpu-view gpuview remove --url <ip:port> --name <name>
 ```
 ### Restart
-上述操作完成後請重啟
+上述操作完成後重啟container
 ```
-$ docker restart pu-view
+$ docker restart gpu-view
 ```
