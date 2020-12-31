@@ -1,5 +1,5 @@
 # gpu-view docker
-主機GPU監控
+WEB介面多主機GPU監控
 
 - [原作者REPO](https://github.com/fgaim/gpuview)
 
@@ -8,7 +8,7 @@
 $ docker build -t gpu-view .
 ```
 
-## Run new container (as slave or master)
+## Run new Container (as slave or master)
 ```bash
 $ docker run -itd --gpus all --restart=always --name gpu-view -p 9988:9988 gpu-view run --safe-zone
 ```
