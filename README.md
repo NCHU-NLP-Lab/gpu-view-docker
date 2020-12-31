@@ -15,11 +15,11 @@ $ docker run -itd --gpus all --restart=always --name gpu-view -p 9988:9988 gpu-v
 ## Add or Remove machine (only no master)
 ### Add
 ```
-$ docker exec -it gpu-view gpuview add --url <ip:port> --name <name>
+$ docker exec -it gpu-view gpuview add --url <http://ip:port> --name <name>
 ```
 ### Remove
 ```
-$ docker exec -it gpu-view gpuview remove --url <ip:port> --name <name>
+$ docker exec -it gpu-view gpuview remove --url <http://ip:port> --name <name>
 ```
 ### Restart
 上述操作完成後重啟container
